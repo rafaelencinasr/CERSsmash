@@ -58,10 +58,22 @@ body, html{
 #redesSociales{
     display: flex;
     flex-direction: row;
+    align-items: center;
     & p{
-        color: white;
+        color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
+}
+
+.contenedorRedes{
+    margin:0 5px;
+}
+
+.redesIcono{
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(360deg) brightness(300%) contrast(200%);
 }
 
 #footer{
@@ -77,16 +89,3 @@ body, html{
     width: 200px; /* Need a specific value to work */
 }
 
-/* h1, h2 {
-    color: white;
-    font-family: Trebuchet MS;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 6rem;
-    margin-top: 30vh;
-  }
-  
-  h2 { font-size: 3rem; } */
