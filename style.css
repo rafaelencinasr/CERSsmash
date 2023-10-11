@@ -89,3 +89,10 @@ body, html{
     width: 200px; /* Need a specific value to work */
 }
 
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("./assets/backupBackground.avif") no-repeat;
+      background-size: cover;
+    }
+}
