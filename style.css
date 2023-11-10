@@ -4,6 +4,10 @@
     border: 1px solid red;
 } */
 
+:root{
+    --cers-cdd: 17, 12, 23;
+}
+
 body, html{
     margin: 0;
     width: 100vw; 
@@ -50,7 +54,8 @@ body, html{
 }
 
 #contentContainer{
-    background-color: rgba(22, 30, 46, 0.90);
+    /* background-color: rgba(22, 30, 46, 0.90); */
+    background-color: rgba(var(--cers-cdd), 0.9);
     margin: 0;
     width: 100vw;
     height: 100vh;
